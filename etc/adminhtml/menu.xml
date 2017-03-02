@@ -1,0 +1,33 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Veriteworks_Base::veriteworks"
+             title="Veriteworks"
+             module="Veriteworks_Base"
+             sortOrder="0514"
+             resource="Veriteworks_Base::veriteworks"
+        />
+        <add id="Veriteworks_Base::veriteworks_base"
+             title="Veriteworks Inc."
+             module="Veriteworks_Base"
+             sortOrder="10"
+             resource="Magento_Backend::content"
+             parent="Veriteworks_Base::veriteworks"
+        />
+        <add id="Veriteworks_Base::veriteworks_veriteworks"
+             title="veriteworks.co.jp"
+             module="Veriteworks_Base"
+             sortOrder="10"
+             resource="Magento_Backend::content"
+             action="veriteworks/veriteworks"
+             parent="Veriteworks_Base::veriteworks_base"
+        />
+        <add id="Veriteworks_Base::veriteworks_principleworks"
+             title="principle-works.jp"
+             module="Veriteworks_Base"
+             sortOrder="20"
+             resource="Magento_Backend::content"
+             action="veriteworks/principleworks"
+             parent="Veriteworks_Base::veriteworks_base"
+        />
+    </menu>
+</config>
