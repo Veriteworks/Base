@@ -1,2 +1,3 @@
 # Base
-Menu for Veriteworks' Extensions
+Base of Veriteworks' Extensions
+Necessary to install any magento 2 extension from Veriteworks.
