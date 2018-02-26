@@ -18,7 +18,8 @@
              module="Veriteworks_Base"
              sortOrder="10"
              resource="Magento_Backend::content"
-             action="veriteworks/veriteworks"
+             action="veriteworks/index/veriteworks"
+             target="_blank"
              parent="Veriteworks_Base::veriteworks_base"
         />
         <add id="Veriteworks_Base::veriteworks_principleworks"
@@ -26,7 +27,8 @@
              module="Veriteworks_Base"
              sortOrder="20"
              resource="Magento_Backend::content"
-             action="veriteworks/principleworks"
+             action="veriteworks/index/principleworks"
+             target="_blank"
              parent="Veriteworks_Base::veriteworks_base"
         />
     </menu>
