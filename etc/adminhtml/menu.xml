@@ -4,7 +4,7 @@
              title="Veriteworks"
              module="Veriteworks_Base"
              sortOrder="0514"
-             resource="Veriteworks_Base::veriteworks"
+             resource="Veriteworks_Base::config"
         />
         <add id="Veriteworks_Base::veriteworks_base"
              title="Veriteworks Inc."
