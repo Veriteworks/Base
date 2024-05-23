@@ -20,7 +20,7 @@ use Magento\Framework\UrlInterface;
 /**
  * Class AdminNotificationFeed
  */
-class AdminNotificationFeed extends Feed
+class PredispathAdminActionControllerObserver extends Feed
 {
     /**
      * @var string
