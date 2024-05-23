@@ -81,11 +81,11 @@ class AdminNotificationFeed extends Feed
     /**
      * Retrieve Update Frequency
      *
-     * @return int
+     * @return float|int
      */
     public function getFrequency(): float|int
     {
-        return self::VERITEWORKS_XML_FREQUENCY * 3600;
+        return self::VERITEWORKS_XML_FREQUENCY ;
     }
 
     /**
