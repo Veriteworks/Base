@@ -60,8 +60,8 @@ class AdminNotificationFeed extends Feed
         DeploymentConfig              $deploymentConfig,
         ProductMetadataInterface      $productMetadata,
         UrlInterface                  $urlBuilder,
-        AbstractResource              $resource = null,
-        AbstractDb                    $resourceCollection = null,
+        ?AbstractResource              $resource = null,
+        ?AbstractDb                    $resourceCollection = null,
         array                         $data = []
     )
     {
